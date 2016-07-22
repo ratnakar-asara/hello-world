@@ -4,7 +4,8 @@
 ### Dependencies
 Install the dependent libraries using below command 
 ``` 
-npm install <lib>
+    npm install <lib>
+    
     $ npm install express
     $ npm install express
     $ npm install express
@@ -21,7 +22,7 @@ Once the network is in place, start the application by executing the following:
 
     $ node app.js
 
-Once the application is started, you should see the following message:
+Once the application is started, you should see the following message on console:
 ```
 ####################### Server Up - localhost:3000 #######################
 ```
@@ -35,14 +36,14 @@ You will need to wait upto 1 minute before the application is fully deployed. Th
 Now you can point your browser at http://localhost:3000 and you can see the auction homepage:
 *** insert picture here***
 
-## Add a user
+## Register a user on blcokchain
 Register multiple users by clicking on "Create Account". 
 For a quickstart execute the script available at http://
 
 *If not using the quickstart script, be sure to create an account for an Auction House with ID set to 200.* This is a temporary setup for demo purposes.
 
-## Add an asset
-Once the user is registered, they can add an asset by clicking on "Action" -> "Register Item".
+## Register an Asset
+Once the user is registered, they can add an asset by clicking on **"Action" -> "Register Item"**
 Complete the requested fields. Keep in mind the User's Owner Id specified when creating the user account. This will be used for the "Current Owner ID" field.
 
 Once the asset is registered, you can see the asset displayed on the auction homepage.
@@ -50,18 +51,23 @@ Once the asset is registered, you can see the asset displayed on the auction hom
 ## Put an asset up for auction
 Click on the "Details" link in the lower right corner of the asset image. You should see the "Item Details" windows.
 
-Enter values in the "Reserve Price" and "BuyItNow Price" spaces and click the "PUT ON AUCTION" button.
+Enter values in the "Reserve Price" and "BuyItNow Price" spaces and click the **"PUT ON AUCTION"** button.
 
 Now the asset is owned by the auction house.
 
 ## Opening an auction
-Click on "Actions" -> "Auctions". You should see the "AUCTIONS" window that will allow you to click on "Open Auction".
-Enter a duration period in necessary fields and press the "OPEN AUCTION" button at the bottom.
+Click on **"Actions" -> "Auctions"**. You should see the "**AUCTIONS"** window that will allow you to click on **"Open Auction"**
+Enter a duration period in minutes and click on the **"OPEN AUCTION"** button at the bottom.
 
 The item is now available for auction.
 
 ## Bid on an item
-Click on "Actions" -> "Bid On Item". Follow the instructions listed paying attention to the time remaining in the existing auction.
+Click on **"Actions" -> "Bid On Item"**. Follow the instructions listed paying attention to the time remaining in the existing auction.
+
+## Transfer Asset
+Click on **"Actions" -> "Transfer Asset"**. An asset can be transferred by entering existing user id and clicking on the 
+Transfer button. Updated details can be seen from Detail View of the Asset.
+
 
 # Credentials
 Bluemix ID https://console.ng.bluemix.net/ (needed to create your IBM Blockchain network if local network is not deployed)
