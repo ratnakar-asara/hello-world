@@ -51,7 +51,7 @@ Once the asset is registered, you can see the asset displayed on the auction hom
 ## Put an asset up for auction
 Click on the "Details" link in the lower right corner of the asset image. You should see the "Item Details" windows.
 
-Enter values in the "Reserve Price" and "BuyItNow Price" spaces and click the **"PUT ON AUCTION"** button.
+Enter values in the "Reserve Price" and "BuyItNow Price" (This field is Optional) spaces and click the **"PUT ON AUCTION"** button.
 
 Now the asset is owned by the auction house.
 
@@ -59,7 +59,7 @@ Now the asset is owned by the auction house.
 Click on **"Actions" -> "Auctions"**. You should see the "**AUCTIONS"** window that will allow you to click on **"Open Auction"**
 Enter a duration period in minutes and click on the **"OPEN AUCTION"** button at the bottom.
 
-The item is now available for auction.
+The item now is available for auction.
 
 ## Bid on an item
 Click on **"Actions" -> "Bid On Item"**. Follow the instructions listed paying attention to the time remaining in the existing auction.
@@ -72,6 +72,8 @@ Transfer button. Updated details can be seen from Detail View of the Asset.
 # Credentials
 Bluemix ID https://console.ng.bluemix.net/ (needed to create your IBM Blockchain network if local network is not deployed)
 
-# Future
+
 
 # Problems
+
+# Future Work
