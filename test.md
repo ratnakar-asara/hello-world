@@ -44,7 +44,9 @@ You will need to wait upto 1 minute before the application is fully deployed. Th
 ```
 
 Now you can point your browser at http://localhost:3000 and you can see the auction homepage:
-*** insert picture here***
+
+![alt tag](home_page.png)
+
 
 ## Register a user on blcokchain
 Register multiple users by clicking on "Create Account". 
