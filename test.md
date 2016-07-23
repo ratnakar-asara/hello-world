@@ -15,7 +15,7 @@ Install the dependent libraries using below command
 Please review instructions on setting up the [Development Environment](https://github.com/hyperledger/fabric/blob/master/docs/dev-setup/devenv.md).
 Follow the [network setup](https://github.com/hyperledger/fabric/blob/master/docs/Setup/Network-setup.md) steps.
 
-The installation of this is only necessary if you would like to create local network and execute the auction application using that network
+The installation of this is only necessary if you would like to create local network and execute the auction application using that network, Otherwise you can use [Bluemix](https://console.ng.bluemix.net/ ) service which providers 4 peer network along with membership service
 
 # Workflow
 Once the network is in place, start the application by executing the following:
@@ -38,7 +38,8 @@ Now you can point your browser at http://localhost:3000 and you can see the auct
 
 ## Register a user on blcokchain
 Register multiple users by clicking on "Create Account". 
-For a quickstart execute the script available at http://
+
+For a quickstart execute in DEV mode, there is a script [PostUser](https://github.com/ITPeople-Blockchain/auction/blob/master/art/scripts/PostUsers) available.
 
 *If not using the quickstart script, be sure to create an account for an Auction House with ID set to 200.* This is a temporary setup for demo purposes.
 
@@ -49,7 +50,7 @@ Complete the requested fields. Keep in mind the User's Owner Id specified when c
 Once the asset is registered, you can see the asset displayed on the auction homepage.
 
 ## Put an asset up for auction
-Click on the "Details" link in the lower right corner of the asset image. You should see the "Item Details" windows.
+Click on the **"Details"** button in the lower right corner of the asset image. You should see the **"Item Details"** windows.
 
 Enter values in the "Reserve Price" and "BuyItNow Price" (This field is Optional) spaces and click the **"PUT ON AUCTION"** button.
 
@@ -68,12 +69,15 @@ Click on **"Actions" -> "Bid On Item"**. Follow the instructions listed paying a
 Click on **"Actions" -> "Transfer Asset"**. An asset can be transferred by entering existing user id and clicking on the 
 Transfer button. Updated details can be seen from Detail View of the Asset.
 
-
 # Credentials
 Bluemix ID https://console.ng.bluemix.net/ (needed to create your IBM Blockchain network if local network is not deployed)
 
 
-
+# Known Issues
+  - No Form Field validations
+  - No User validation checks in UI screens like **Transfer Items** and **Bid On Item**
+  - No indication in UI about Bid Price submitted are Ignore by backend/chaincode
+  
 # Problems
 
 # Future Work
