@@ -17,6 +17,16 @@ Follow the [network setup](https://github.com/hyperledger/fabric/blob/master/doc
 
 The installation of this is only necessary if you would like to create local network and execute the auction application using that network, Otherwise you can use [Bluemix](https://console.ng.bluemix.net/ ) service which providers 4 peer network along with membership service
 
+## Credentials
+If you are using [Bluemix service](https://console.ng.bluemix.net/), use the Credentials available from Bluemix service.
+Update credentails.json with new values and replace localcreds.json with credentails.json file in app.js
+
+```
+Change the file name from localcred.json to credentials.json
+    
+var manual = JSON.parse(fs.readFileSync('credentials.json', 'utf8'));    
+```
+
 # Workflow
 Once the network is in place, start the application by executing the following:
 
@@ -69,10 +79,6 @@ Once Auction is closed updated details can be seen on Asset Details view.
 ## Transfer Asset
 Click on **"Actions" -> "Transfer Asset"**. An asset can be transferred by entering existing user id and clicking on the 
 Transfer button. Updated details can be seen from Detail View of the Asset.
-
-## Credentials
-Bluemix ID https://console.ng.bluemix.net/ (needed to create your IBM Blockchain network if local network is not deployed)
-
 
 ### Known Issues
   - No Form Field validations
