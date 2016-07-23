@@ -28,7 +28,7 @@ var manual = JSON.parse(fs.readFileSync('credentials.json', 'utf8'));
 ```
 
 # Workflow
-Once the network is in place, start the application by executing the following:
+Once the network is in place, kickoff the application by executing the following:
 
     $ node app.js
 
@@ -89,4 +89,3 @@ Transfer button. Updated details can be seen from Detail View of the Asset.
   - EventListener support not available to check whether a transaction is successful or failed, this is an extra burden on client, As it has to make multiple REST calls to check the same.
 
 ### Future Work
-  - Based on IDaas Service availability, User/AuctionHouse authetication etc., has to be added.
