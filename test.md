@@ -15,7 +15,7 @@ Install the dependent libraries using below command
 Please review instructions on setting up the [Development Environment](https://github.com/hyperledger/fabric/blob/master/docs/dev-setup/devenv.md).
 Follow the [network setup](https://github.com/hyperledger/fabric/blob/master/docs/Setup/Network-setup.md) steps.
 
-The installation of this is only necessary if you would like to create local network and execute the auction application using that network, Otherwise you can use [Bluemix](https://console.ng.bluemix.net/ ) service which providers 4 peer network along with membership service
+The installation of this is only necessary if you would like to create local network and execute the auction application using that network, Otherwise you can use [Bluemix](https://console.ng.bluemix.net/ ) service which provides 4 peer network along with membership service
 
 ## Credentials
 If you are using [Bluemix service](https://console.ng.bluemix.net/), use the Credentials available from Bluemix service.
