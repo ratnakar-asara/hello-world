@@ -88,6 +88,6 @@ Transfer button. Updated details can be seen from Detail View of the Asset.
   - No indication in UI about Bid Price submitted or Ignore by backend/chaincode
   
 ### Problems
-  - EventListener support not available to check whether a transaction is successful or failed, this is an extra burden on client, As it has to make multiple REST calls to check the same.
+  - EventListener support not available to check whether a transaction is successful or failed, there is an extra burden on the client, as it has to check for the same with multiple REST calls.
 
 ### Future Work
