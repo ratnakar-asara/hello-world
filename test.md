@@ -63,21 +63,24 @@ Enter a duration period in minutes and click on the **"OPEN AUCTION"** button at
 The item now is available for auction.
 
 ## Bid on an item
-Click on **"Actions" -> "Bid On Item"**. Follow the instructions listed paying attention to the time remaining in the existing auction.
+Click on **"Actions" -> "Bid On Item"**. Follow the instructions listed paying attention to the time remaining in the existing auction. Submit Bids with different available user IDs, **Highest Bid Price** will be updated periodically on UI.Clicking on **BuyItNow** will close the Auction immediately and no more auctions can be submitted.
+Once Auction is closed updated details can be seen on Asset Details view.
 
 ## Transfer Asset
 Click on **"Actions" -> "Transfer Asset"**. An asset can be transferred by entering existing user id and clicking on the 
 Transfer button. Updated details can be seen from Detail View of the Asset.
 
-# Credentials
+## Credentials
 Bluemix ID https://console.ng.bluemix.net/ (needed to create your IBM Blockchain network if local network is not deployed)
 
 
-# Known Issues
+### Known Issues
   - No Form Field validations
   - No User validation checks in UI screens like **Transfer Items** and **Bid On Item**
-  - No indication in UI about Bid Price submitted are Ignore by backend/chaincode
+  - No indication in UI about Bid Price submitted or Ignore by backend/chaincode
   
-# Problems
+### Problems
+    - EventListener support not available whether a transaction is successful or failed, this is an extra burden on client, As it has to make multiple REST calls
 
-# Future Work
+### Future Work
+    - Login screen, This has depndency with IDaas service availability
