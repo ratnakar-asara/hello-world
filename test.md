@@ -43,7 +43,7 @@ You will need to wait upto 1 minute before the application is fully deployed. Th
 [d2cbc1ac45ee62c4acbca98e7d33ea5ae2771a37262678f15170285be979cbcf1addf3af79602f2f6c3da2f3846426419adaa838f636ce62668f3199edaab5c0]
 ```
 
-Now you can point your browser at http://localhost:3000 and you can see the auction homepage:
+Now you can point your browser at **http://localhost:3000** and you can see the auction homepage:
 
 ![alt tag](home_page.png)
 
