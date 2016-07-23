@@ -83,4 +83,4 @@ Bluemix ID https://console.ng.bluemix.net/ (needed to create your IBM Blockchain
   - EventListener support not available to check whether a transaction is successful or failed, this is an extra burden on client, As it has to make multiple REST calls to check the same.
 
 ### Future Work
-  - Login screen, This has depndency with IDaas service availability
+  - Based on IDaas Service availability, User/AuctionHouse authetication etc., has to be added.
