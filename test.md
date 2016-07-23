@@ -56,13 +56,13 @@ For a quickstart execute in DEV mode, there is a script [PostUser](https://githu
 *If not using the quickstart script, be sure to create an account for an Auction House with ID set to 200.* This is a temporary setup for demo purposes.
 
 ## Register an Asset
-Once the user is registered, they can add an asset by clicking on **"Action" -> "Register Item"**
+Once the user is registered, they can add an asset by clicking on **"Action" -> "Register Asset"**
 Complete the requested fields. Keep in mind the User's Owner Id specified when creating the user account. This will be used for the "Current Owner ID" field.
 
 Once the asset is registered, you can see the asset displayed on the auction homepage.
 
 ## Put an asset up for auction
-Click on the **"Details"** button in the lower right corner of the asset image. You should see the **"Item Details"** windows.
+Click on the **"Details"** button in the lower right corner of the asset image. You should see the **"Asset Details"** windows.
 
 Enter values in the "Reserve Price" and "BuyItNow Price" (This field is Optional) spaces and click the **"PUT ON AUCTION"** button.
 
@@ -72,10 +72,10 @@ Now the asset is owned by the auction house.
 Click on **"Actions" -> "Auctions"**. You should see the "**AUCTIONS"** window that will allow you to click on **"Open Auction"**
 Enter a duration period in minutes and click on the **"OPEN AUCTION"** button at the bottom.
 
-The item now is available for auction.
+The Asset now is available for auction.
 
-## Bid on an item
-Click on **"Actions" -> "Bid On Item"**. Follow the instructions listed paying attention to the time remaining in the existing auction. Submit Bids with different available user IDs, **Highest Bid Price** will be updated periodically on UI.Clicking on **BuyItNow** will close the Auction immediately and no more auctions can be submitted.
+## Bid on Asset
+Click on **"Actions" -> "Bid On Asset"**. Follow the instructions listed paying attention to the time remaining in the existing auction. Submit Bids with different available user IDs, **Highest Bid Price** will be updated periodically on UI.Clicking on **BuyItNow** will close the Auction immediately and no more auctions can be submitted.
 Once Auction is closed updated details can be seen on Asset Details view.
 
 ## Transfer Asset
@@ -84,7 +84,7 @@ Transfer button. Updated details can be seen from Detail View of the Asset.
 
 ### Known Issues
   - No Form Field validations
-  - No User validation checks in UI screens like **Transfer Items** and **Bid On Item**
+  - No User validation checks in UI screens like **Transfer Asset** and **Bid On Asset**
   - No indication in UI about Bid Price submitted or Ignore by backend/chaincode
   
 ### Problems
